@@ -13,6 +13,7 @@
     "express": "^4.18.2",
     "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.61.0"
+    "pairing_code": "ABC123XYZ"
   },
   "type": "commonjs"
 }
