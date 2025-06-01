@@ -1,12 +1,18 @@
 {
-  "name": "telegram-whatsapp-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
+  "description": "Telegram bot to fetch WhatsApp pairing codes",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
+  "author": "ArslanMDofficial",
+  "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "node-fetch": "^3.3.2",
     "node-telegram-bot-api": "^0.61.0"
-  }
+  },
+  "type": "commonjs"
 }
